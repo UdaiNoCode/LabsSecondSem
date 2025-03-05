@@ -1,0 +1,26 @@
+# ninja log v6
+31	1837	1741214550751392532	CMakeFiles/DataBase.dir/dialog.cpp.o	d48433bae3a4eb98
+6	30	1741214550726392233	DataBase_autogen/timestamp	485bf7cce6516317
+2778	3147	1741214553498425152	DataBase	d418f3309ea42b9
+6	30	1741214550726392233	DataBase_autogen/mocs_compilation.cpp	485bf7cce6516317
+6	30	1741214550726392233	/home/udainoko/Documents/OAIP/LAB2/Task1/DataBase/build/Desktop_Qt_6_8_2-Debug/DataBase_autogen/timestamp	485bf7cce6516317
+901	3531	1741213166153362814	CMakeFiles/DataBase.dir/main.cpp.o	92eb95978b52ce87
+6	30	1741214550726392233	/home/udainoko/Documents/OAIP/LAB2/Task1/DataBase/build/Desktop_Qt_6_8_2-Debug/DataBase_autogen/mocs_compilation.cpp	485bf7cce6516317
+1192	4868	1741195741757249483	CMakeFiles/DataBase.dir/data.cpp.o	8b5ad67fe3d6319d
+1123	6160	1741191868606044419	CMakeFiles/DataBase.dir/infowindow.cpp.o	ecfe201ea6515b26
+900	4435	1741213166152362815	CMakeFiles/DataBase.dir/DataBase_autogen/mocs_compilation.cpp.o	3dc4e4d709e95daf
+31	2778	1741214550751392532	CMakeFiles/DataBase.dir/mainwindow.cpp.o	f8bb4b26b587133e
+4	33	1741214620675134728	DataBase_autogen/timestamp	485bf7cce6516317
+4	33	1741214620675134728	DataBase_autogen/mocs_compilation.cpp	485bf7cce6516317
+4	33	1741214620675134728	/home/udainoko/Documents/OAIP/LAB2/Task1/DataBase/build/Desktop_Qt_6_8_2-Debug/DataBase_autogen/timestamp	485bf7cce6516317
+4	33	1741214620675134728	/home/udainoko/Documents/OAIP/LAB2/Task1/DataBase/build/Desktop_Qt_6_8_2-Debug/DataBase_autogen/mocs_compilation.cpp	485bf7cce6516317
+34	1870	1741214620705135011	CMakeFiles/DataBase.dir/dialog.cpp.o	d48433bae3a4eb98
+33	2781	1741214620704135001	CMakeFiles/DataBase.dir/mainwindow.cpp.o	f8bb4b26b587133e
+2781	3147	1741214623451160735	DataBase	d418f3309ea42b9
+6	29	1741214704133822117	DataBase_autogen/timestamp	485bf7cce6516317
+6	29	1741214704133822117	DataBase_autogen/mocs_compilation.cpp	485bf7cce6516317
+6	29	1741214704133822117	/home/udainoko/Documents/OAIP/LAB2/Task1/DataBase/build/Desktop_Qt_6_8_2-Debug/DataBase_autogen/timestamp	485bf7cce6516317
+6	29	1741214704133822117	/home/udainoko/Documents/OAIP/LAB2/Task1/DataBase/build/Desktop_Qt_6_8_2-Debug/DataBase_autogen/mocs_compilation.cpp	485bf7cce6516317
+30	1856	1741214704157822290	CMakeFiles/DataBase.dir/dialog.cpp.o	d48433bae3a4eb98
+29	2697	1741214704156822283	CMakeFiles/DataBase.dir/mainwindow.cpp.o	f8bb4b26b587133e
+2697	3062	1741214706824841361	DataBase	d418f3309ea42b9
