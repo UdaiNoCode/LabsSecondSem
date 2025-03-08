@@ -23,6 +23,8 @@ class Dialog : public QDialog {
   void setLabelIsLeak(QString in);
   void setLabelWeekNum(QString in);
   void setUpdate();
+  void setLabelDuration(QString in);
+  void setLabelBirthday(QString in);
 };
 
 #endif  // DIALOG_H

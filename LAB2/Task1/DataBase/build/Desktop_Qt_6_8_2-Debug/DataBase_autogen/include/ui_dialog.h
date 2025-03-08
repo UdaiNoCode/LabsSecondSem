@@ -31,7 +31,9 @@ public:
     QLabel *PrevDay;
     QLabel *IsLeak;
     QLabel *WeekNum;
-    QLabel *label_10;
+    QLabel *Birthday;
+    QLabel *label_6;
+    QLabel *Duration;
 
     void setupUi(QDialog *Dialog)
     {
@@ -70,9 +72,15 @@ public:
         WeekNum = new QLabel(Dialog);
         WeekNum->setObjectName("WeekNum");
         WeekNum->setGeometry(QRect(240, 160, 66, 18));
-        label_10 = new QLabel(Dialog);
-        label_10->setObjectName("label_10");
-        label_10->setGeometry(QRect(240, 200, 66, 18));
+        Birthday = new QLabel(Dialog);
+        Birthday->setObjectName("Birthday");
+        Birthday->setGeometry(QRect(240, 200, 66, 18));
+        label_6 = new QLabel(Dialog);
+        label_6->setObjectName("label_6");
+        label_6->setGeometry(QRect(20, 230, 191, 18));
+        Duration = new QLabel(Dialog);
+        Duration->setObjectName("Duration");
+        Duration->setGeometry(QRect(240, 230, 66, 18));
 
         retranslateUi(Dialog);
         QObject::connect(buttonBox, &QDialogButtonBox::accepted, Dialog, qOverload<>(&QDialog::accept));
@@ -93,7 +101,9 @@ public:
         PrevDay->setText(QCoreApplication::translate("Dialog", "Info", nullptr));
         IsLeak->setText(QCoreApplication::translate("Dialog", "Info", nullptr));
         WeekNum->setText(QCoreApplication::translate("Dialog", "Info", nullptr));
-        label_10->setText(QCoreApplication::translate("Dialog", "Info", nullptr));
+        Birthday->setText(QCoreApplication::translate("Dialog", "Info", nullptr));
+        label_6->setText(QCoreApplication::translate("Dialog", "Duration:", nullptr));
+        Duration->setText(QCoreApplication::translate("Dialog", "Info", nullptr));
     } // retranslateUi
 
 };

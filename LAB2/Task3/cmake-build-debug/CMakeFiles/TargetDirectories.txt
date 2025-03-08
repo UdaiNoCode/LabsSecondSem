@@ -1,0 +1,3 @@
+/home/udainoko/Documents/OAIP/LAB2/Task3/cmake-build-debug/CMakeFiles/Task3.dir
+/home/udainoko/Documents/OAIP/LAB2/Task3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/udainoko/Documents/OAIP/LAB2/Task3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -83,11 +83,15 @@ void MainWindow::setInfo() {
   QString previousDay = dates[activeRow].previousDate();
   QString isLeap = dates[activeRow].isLeap();
   QString weekNumber = dates[activeRow].weekNumber();
+  QString duration = dates[activeRow].duration();
+  QString tillBitrh = dates[activeRow].DaysTillYourBithday(getBirhday());
 
   infoDialog->setLabelNextDay(nextDay);
   infoDialog->setLabelPrevDay(previousDay);
   infoDialog->setLabelIsLeak(isLeap);
   infoDialog->setLabelWeekNum(weekNumber);
+  infoDialog->setLabelDuration(duration);
+  infoDialog->setLabelBirthday(tillBitrh);
 }
 
 void MainWindow::on_pushButton_3_clicked() {
@@ -102,7 +106,7 @@ void MainWindow::on_pushButton_3_clicked() {
   deleteInfo(curentPosition);  //need to edit
   updateTable();
 
-  setInfo();
+  setInfo();  //Need to do better
 }
 
 void MainWindow::on_pushButton_2_clicked() {
@@ -204,4 +208,31 @@ void MainWindow::deleteInfo(size_t index) {
     edit << data.getDate().toString("dd.MM.yyyy") << '\n';
   }
   file.close();
+}
+
+QDate MainWindow::getBirhday() {
+  return this->birthdayDay;
+};
+
+void MainWindow::on_pushButton_6_clicked() {
+  QDialog dialog(this);
+  QVBoxLayout layout(&dialog);
+  QCalendarWidget calendar;
+  QPushButton button("Choose");
+
+  layout.addWidget(&calendar);
+  layout.addWidget(&button);
+
+  //Create labmda function for control pressing button
+  connect(&button, &QPushButton::clicked, [&]() {
+    QDate selectedDate = calendar.selectedDate();
+
+    if (selectedDate.isValid()) {
+      this->birthdayDay = selectedDate;
+      updateTable();
+      dialog.close();
+    }
+  });
+
+  dialog.exec();
 }

@@ -33,3 +33,19 @@ QString Data::weekNumber() {
 
   return QString::number(weekNumber);
 };
+
+QString Data::duration() {
+  QDate nowDate = QDate::currentDate();
+  int daysDiff = getDate() >= nowDate ? getDate().daysTo(nowDate)
+                                      : nowDate.daysTo(getDate());
+  return QString::number(abs(daysDiff));
+}
+
+QString Data::DaysTillYourBithday(QDate birthday) {
+  if (birthday.isValid()) {
+    int daysDiff = getDate() >= birthday ? getDate().daysTo(birthday)
+                                         : birthday.daysTo(getDate());
+    return QString::number(abs(daysDiff));
+  }
+  return "Info";
+}

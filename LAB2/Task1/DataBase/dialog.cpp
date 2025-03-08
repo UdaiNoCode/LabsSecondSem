@@ -25,3 +25,9 @@ void Dialog::setLabelIsLeak(QString in) {
 void Dialog::setLabelWeekNum(QString in) {
   ui->WeekNum->setText(in);
 };
+void Dialog::setLabelDuration(QString in) {
+  ui->Duration->setText(in);
+}
+void Dialog::setLabelBirthday(QString in) {
+  ui->Birthday->setText(in);
+}

@@ -35,6 +35,8 @@ class MainWindow : public QMainWindow {
 
   void on_pushButton_2_clicked();
 
+  void on_pushButton_6_clicked();
+
  private:
   Ui::MainWindow* ui;
   Dialog* infoDialog;
@@ -43,6 +45,7 @@ class MainWindow : public QMainWindow {
   QString opened_file;
   QVector<Data> dates;
   size_t isActive;
+  QDate birthdayDay;
 
  public:
   void updateTable();
@@ -52,5 +55,6 @@ class MainWindow : public QMainWindow {
   void appendInfo();
   void newPath();
   void deleteInfo(size_t index);
+  QDate getBirhday();
 };
 #endif  // MAINWINDOW_H

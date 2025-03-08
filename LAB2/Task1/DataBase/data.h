@@ -19,6 +19,8 @@ class Data {
   QString isLeap();
   QString weekNumber();
   QDate getDate();
+  QString duration();
+  QString DaysTillYourBithday(QDate birthsday);
 };
 
 #endif  // DATA_H

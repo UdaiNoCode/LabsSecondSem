@@ -146,11 +146,37 @@
     <string>Info</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_10">
+  <widget class="QLabel" name="Birthday">
    <property name="geometry">
     <rect>
      <x>240</x>
      <y>200</y>
+     <width>66</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Info</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>230</y>
+     <width>191</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Duration:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Duration">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>230</y>
      <width>66</width>
      <height>18</height>
     </rect>
