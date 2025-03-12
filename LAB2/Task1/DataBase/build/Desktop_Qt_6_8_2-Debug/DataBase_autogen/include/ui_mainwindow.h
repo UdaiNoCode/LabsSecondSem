@@ -84,7 +84,7 @@ public:
         pushButton->setText(QCoreApplication::translate("MainWindow", "LoadTable", nullptr));
         pushButton_2->setText(QCoreApplication::translate("MainWindow", "Add ", nullptr));
         pushButton_3->setText(QCoreApplication::translate("MainWindow", "Delete", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("MainWindow", "Save", nullptr));
+        pushButton_4->setText(QCoreApplication::translate("MainWindow", "Edit", nullptr));
         pushButton_5->setText(QCoreApplication::translate("MainWindow", "Info", nullptr));
         pushButton_6->setText(QCoreApplication::translate("MainWindow", "Birthday", nullptr));
     } // retranslateUi

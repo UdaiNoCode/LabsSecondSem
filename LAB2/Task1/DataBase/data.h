@@ -3,24 +3,22 @@
 
 #include <QDate>
 #include <QString>
-#include <ranges>
-#include <vector>
 
 class Data {
- private:
-  QDate date;
+   private:
+    QDate date;
 
- public:
-  Data(QString inpuData);
+   public:
+    Data(QString inpuData);
 
- public:
-  QString nextDay();
-  QString previousDate();
-  QString isLeap();
-  QString weekNumber();
-  QDate getDate();
-  QString duration();
-  QString DaysTillYourBithday(QDate birthsday);
+   public:
+    QString nextDay();
+    QString previousDate();
+    QString isLeap();
+    QString weekNumber();
+    QDate getDate();
+    QString duration();
+    QString DaysTillYourBithday(QDate birthsday);
 };
 
-#endif  // DATA_H
+#endif	// DATA_H

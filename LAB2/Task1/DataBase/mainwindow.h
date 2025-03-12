@@ -37,12 +37,14 @@ class MainWindow : public QMainWindow {
 
   void on_pushButton_6_clicked();
 
+  void on_pushButton_4_clicked();
+
  private:
   Ui::MainWindow* ui;
   Dialog* infoDialog;
 
  private:
-  QString opened_file;
+  QString opened_file_path;
   QVector<Data> dates;
   size_t isActive;
   QDate birthdayDay;

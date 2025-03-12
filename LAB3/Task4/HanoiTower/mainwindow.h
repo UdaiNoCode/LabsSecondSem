@@ -11,30 +11,31 @@ class MainWindow;
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow {
-  Q_OBJECT
+    Q_OBJECT
 
- public:
-  MainWindow(QWidget* parent = nullptr);
-  ~MainWindow();
+   public:
+    MainWindow(QWidget* parent = nullptr);
+    ~MainWindow();
 
- private slots:
-  void on_lineEdit_editingFinished();
+   private slots:
+    void on_lineEdit_editingFinished();
 
-  void on_pushButton_clicked();
+    void on_pushButton_clicked();
 
- private:
-  Ui::MainWindow* ui;
 
- private:
-  int number;
-  HanoiTower hanoi;
+   private:
+    Ui::MainWindow* ui;
 
- private:
-  int getNumber();
-  void setNumber(int number);
+   private:
+    int number;
+    HanoiTower hanoi;
 
- private:
-  const int MAX_LIMIT_OF_TOWER = 20;
-  const int MIN_LIMIT_OF_TOWER = 2;
+   private:
+    int getNumber();
+    void setNumber(int number);
+
+   private:
+    const int MAX_LIMIT_OF_TOWER = 20;
+    const int MIN_LIMIT_OF_TOWER = 2;
 };
-#endif  // MAINWINDOW_H
+#endif	// MAINWINDOW_H
